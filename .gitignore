@@ -1,0 +1,44 @@
+# Android GitIgnore - BibliaKoine
+
+# Gradle files
+.gradle/
+build/
+app/build/
+CAPTURE_SUCCESS.txt
+build_log.txt
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+
+# Android Studio files
+local.properties
+.bundle/
+.externalNativeBuild/
+.cxx/
+*.keystore
+!debug.keystore
+
+# Kotlin
+.kotlin/
+*.kotlin_module
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets & Local Config
+.env
+google-services.json
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+dump.rdb
+
+# App Specific
+*.db-journal
+*.db-shm
+*.db-wal

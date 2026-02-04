@@ -1,0 +1,36 @@
+name: 🐛 Reporte de Error
+description: Crea un reporte para ayudarnos a mejorar BibliaKoine
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por tomarte el tiempo de reportar este problema.
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción del Error
+      description: Una descripción clara y concisa de lo que está sucediendo.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para Reproducir
+      description: Cuéntanos cómo llegaste al error.
+      placeholder: |
+        1. Abre la app
+        2. Ve al Buscador
+        3. Escribe 'Amor'
+        4. ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento Esperado
+      description: ¿Qué debería haber pasado?
+  - type: input
+    id: version
+    attributes:
+      label: Versión de la App
+      placeholder: v1.0.0

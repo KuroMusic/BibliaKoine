@@ -1,0 +1,17 @@
+name: ✨ Sugerencia de Funcionalidad
+description: Comparte tu idea para una nueva característica en BibliaKoine
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: ¿En qué consiste tu idea?
+      description: Describe la funcionalidad que te gustaría ver.
+    validations:
+      required: true
+  - type: textarea
+    id: logic
+    attributes:
+      label: ¿Por qué sería útil?
+      description: Explica el valor que aporta a los estudiantes de la Biblia.
