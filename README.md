@@ -3,7 +3,7 @@
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg?logo=android)](https://www.android.com)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple.svg?logo=kotlin)](https://kotlinlang.org)
 [![Licencia](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/BibliaKoine/App?color=blue)](https://github.com/BibliaKoine/App/releases)
+[![GitHub release](https://img.shields.io/github/v/release/KuroMusic/BibliaKoine?color=blue)](https://github.com/KuroMusic/BibliaKoine/releases)
 
 **BibliaKoine** no es simplemente otra aplicación de lectura bíblica. Es un ecosistema digital diseñado para el estudio serio, la reflexión profunda y la accesibilidad moderna. Nacida de la necesidad de unir la riqueza de los idiomas originales con una interfaz de usuario fluida y estética, BibliaKoine representa el pináculo de las herramientas de estudio en español.
 
@@ -77,7 +77,7 @@ Si eres desarrollador y quieres colaborar o estudiar este proyecto modernísimo,
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/BibliaKoine/App.git
+git clone https://github.com/KuroMusic/BibliaKoine.git
 ```
 
 ### 2. Abrir en Android Studio

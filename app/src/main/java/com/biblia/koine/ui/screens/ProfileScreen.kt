@@ -119,7 +119,7 @@ fun ProfileScreen(viewModel: BibleViewModel) {
                         title = "Contactar Soporte",
                         icon = Icons.Default.Help,
                         onClick = {
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/KuroMusic"))
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/KuroMusic/BibliaKoine"))
                             context.startActivity(intent)
                         }
                     )
@@ -128,7 +128,7 @@ fun ProfileScreen(viewModel: BibleViewModel) {
                         title = "Política de Privacidad",
                         icon = Icons.Default.PrivacyTip,
                         onClick = {
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/KuroMusic/privacy"))
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/KuroMusic/BibliaKoine/blob/main/PRIVACY.md"))
                             context.startActivity(intent)
                         }
                     )
@@ -137,7 +137,7 @@ fun ProfileScreen(viewModel: BibleViewModel) {
                         title = "Términos de Uso",
                         icon = Icons.Default.Gavel,
                         onClick = {
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/KuroMusic/terms"))
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/KuroMusic/BibliaKoine/blob/main/TERMS.md"))
                             context.startActivity(intent)
                         }
                     )
